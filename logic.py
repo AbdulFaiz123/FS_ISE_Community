@@ -1,6 +1,7 @@
 import uuid
 import os,glob
 # glob is for retrieve files/pathnames matching  glob.globr(wherver)
+print("happy")
 
 def create_account(name,usn,sem,pnum,uname,pwd):
     data = name +'|'+ usn +'|'+ sem +'|'+ pnum +'|'+ uname +'|'+ pwd +'$'
